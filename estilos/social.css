@@ -1,0 +1,30 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;            
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+
+}
+
+a {
+    display: block;
+    background-color: rgb(156, 4, 4);
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+a:hover {
+    background-color: red;
+}
